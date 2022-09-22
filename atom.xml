@@ -1,20 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>dike s home</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-22T16:04:57.045Z</updated>
+  <updated>2022-09-22T16:21:28.548Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>dike</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>min</title>
+    <link href="http://example.com/2022/09/23/min/"/>
+    <id>http://example.com/2022/09/23/min/</id>
+    <published>2022-09-22T16:16:26.000Z</published>
+    <updated>2022-09-22T16:21:28.548Z</updated>
+    
+    <content type="html"><![CDATA[<p>My English is low,but i aknowledge ‘lm’ is pig baby(kiss kiss~)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;My English is low,but i aknowledge ‘lm’ is pig baby(kiss kiss~)&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>page</title>
