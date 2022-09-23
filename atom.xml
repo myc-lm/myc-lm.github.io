@@ -42,15 +42,14 @@
     <link href="http://example.com/2022/09/22/page/"/>
     <id>http://example.com/2022/09/22/page/</id>
     <published>2022-09-22T14:44:47.000Z</published>
-    <updated>2022-09-22T16:04:57.045Z</updated>
+    <updated>2022-09-23T06:40:38.171Z</updated>
     
-    <content type="html"><![CDATA[<p>My English is low,but i aknowledge ‘lm’ is pig baby(kiss kiss~)</p>]]></content>
+    <content type="html"><![CDATA[<p>�����ɻ�<br>int main()<br>{<br>    int i,max;<br>    int arr[10] ;<br>    printf(“������ʮ����Ȼ����\n”);<br>    for (i&#x3D;0; i &lt; 10; i++)<br>    {<br>        scanf_s(“%d\n”, &amp;arr[i]); &#x2F;&#x2F;���\n��������11���� why?<br>    }<br>    max &#x3D; arr[0];<br>    for (i &#x3D; 0; i &lt; 10; i++)<br>    {<br>        if (max &lt;&#x3D; arr[i])<br>            max &#x3D; arr[i];<br>    }<br>    printf(“%d\n”, max);<br>    return 0;<br>}</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;My English is low,but i aknowledge ‘lm’ is pig baby(kiss kiss~)&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;�����ɻ�&lt;br&gt;int main()&lt;br&gt;{&lt;br&gt;    int i,max;&lt;br&gt;    int arr[10] ;&lt;br&gt;    printf(“������ʮ����Ȼ����\n”);&lt;br&gt;    for (i&amp;#x3D;0; i &amp;lt; 10; i</summary>
       
     
     
