@@ -1,3 +1,3 @@
-http://example.com/2022/09/22/page/
 http://example.com/2022/09/22/hello-world/
+http://example.com/2022/09/22/page/
 http://example.com/
