@@ -1,3 +1,4 @@
+http://example.com/2022/09/24/2022-9-24/
 http://example.com/2022/09/23/for%20my%20min/
 http://example.com/2022/09/22/hello-world/
 http://example.com/2022/09/22/page/

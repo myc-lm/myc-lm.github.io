@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-24T07:44:00.069Z</updated>
+  <updated>2022-09-24T08:15:28.491Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2022/9/24的心得感悟</title>
+    <link href="http://example.com/2022/09/24/2022-9-24/"/>
+    <id>http://example.com/2022/09/24/2022-9-24/</id>
+    <published>2022-09-24T07:47:20.000Z</published>
+    <updated>2022-09-24T08:15:28.491Z</updated>
+    
+    <content type="html"><![CDATA[<p>  经过三天时间，经过各种erro，404之后终于了解了hexo-github搭建的基本使用方法：<br>1.win+r -&gt; d: -&gt; cd blog &gt;<br>2.想创建一篇新的blog：hexo new 标题，打开blog -&gt; sourse , 修改title时记得空上一格。<br>3.回到cmd面板，输入hexo cl &amp;&amp; hexo g &amp;&amp; hexo d三连一键部署，若出现很多at…服务器问题，多部署几次就ok。<br>4.因为是国外网站，可能打不开，多刷新几次。<br>5.中文无法显示问题：左上角文件里高级保存，设置为UTF-8类型的。</p><p>虽然很后悔大一没能好好学习转专业，但我觉得只要现在肯努力，朝着自己喜欢的路奋斗，才会觉得有意义。<br>我是经过大三才看知乎了解什么生化环材四大天坑把我劝退的，再加上计算机有着不错的待遇，比较喜欢打代码的感觉，<br>这才选择了跨考计算机。我知道网上在画饼说什么大厂offer，年薪30w+，那都是给本科是计算机的天才准备的，不是人人都有如此好运。<br>不过我打心底已经放弃本科化学，如果继续常规操作考个稍微高一点的学校总是很不舒服，感觉算是朝着自己不喜欢的方向努力，那结果也不会太好<br>，即使现在大三，准备考研时间只有一年，但是我会将其当作两年半的时间来奋斗，就算是再不济，这不还有着自己创业搞自媒体等等的各种机会嘛。<br>其实，有梦想的人，不怕吃苦，愿意努力的人，运气不会太差。</p><p>考研目标：西邮（定高一点才有动力），可能看不上我化学本科的身份不过不要紧，我觉得实力才是评判一个人的标准。<br>目前任务：继续学习c语言和高数，争取能在十一月之前精通。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;  经过三天时间，经过各种erro，404之后终于了解了hexo-github搭建的基本使用方法：&lt;br&gt;1.win+r -&amp;gt; d: -&amp;gt; cd blog &amp;gt;&lt;br&gt;2.想创建一篇新的blog：hexo new 标题，打开blog -&amp;gt; sourse</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>For my min</title>
