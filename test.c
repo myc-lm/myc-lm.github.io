@@ -1,94 +1,110 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-#include<windows.h>
-#include<stdlib.h>
 #include<stdio.h>
 #include<string.h>
-/* memset example */
-#include <stdio.h>
-#include <string.h>
-
+//strlen不算/0,sizeof算/0
+//每调用一次函数，num增加1
 int main()
 {
-	char str[] = "almost every programmer should know memset!";
-	memset(str, '-*1', 6);//111111 every programmer should know memset!
-	puts(str);
+	int num = 0;
+		add(&num);
+		printf("%d", add(&num));//printf的返回值是字符个数
 	return 0;
 }
-//int main()
+int add(int* p)
+{
+	return (*p)+1;
+}
+//二分查找,在有序数组中找到一个具体的数
+//int xiabiao(int arr[], int a, int k)
 //{
-//	char arr[20] = "ab\0v";
-//	printf("%s", arr);
-//	return 0;
-//}
-////制定一个关机程序
-//int main()
-//{
-//	char input[20] = { 0 };
-//	system("shutdown -s -t 60");
-//again:
-//	printf("请注意，你的电脑将在60s内关机。如果输入：“刘敏是猪”，则取消关机\n");
-//	scanf("%s", input);
-//	if (strcmp(input, "刘敏是猪") == 0)
+//	int mid = 0;
+//	int left = 0;
+//	int right = k - 1;
+//	while (left <= right)
 //	{
-//		printf("请稍等...\n");
-//		Sleep(1000);
-//		printf("取消成功\n");
-//		Sleep(1000);
-//		system("shutdown -a\n");
+//		mid = (left + right) / 2;//放进来！！
+//		if (arr[mid] > a)
+//			right = mid - 1;
+//		else if (arr[mid] < a)
+//			left = mid + 1;
+//		else
+//			return mid;
 //	}
+//	return -1;
+//}
+//int main()
+//{
+//	int x = 0;
+//	int sz = 0;
+//	int arr[] = {1,2,3,5,7,8,9};//数组里不能有东西
+//	sz = sizeof(arr) / sizeof(arr[0]);
+//	int a = 7;
+//	x = xiabiao(arr,a,sz);
+//	if (x == -1)
+//		printf("没有找到\n");
 //	else
-//	{
-//		goto again;
-//	}
+//		printf("该元素下标是：%d\n", x);
 //	return 0;
 //}
 
-
-////数字游戏
-//int menu()
-//{
-//	printf("*****数字炸弹****\n");
-//	printf("**1.play 0.exit**\n");
-//	printf("*****************\n");
-//}
+////打印100-200的质数。
+////质数：只能整除自己，从2到i-1整除，如果有的%0则不为质数
 //int main()
 //{
-//
-//	int input = 0;
-//	do{
-//		menu();
-//		printf("请选择：");
-//		scanf("%d", &input);
-//		srand((unsigned int)time(NULL));
-//		if (input == 1)
-//			game();
-//		else if (input == 0)
+//	int i = 0;
+//	for (i = 100; i <= 200; i++)
+//	{
+//		if ((is_prime(i)) == 1)
+//			printf("%d ", i);
+//	}
+//}
+//int is_prime(int j)
+//{
+//	int k = 0;
+//	for (k = 2; k < j ; k++)
+//	{
+//		if (j%k == 0)
+//			return 0;
+//		//else if ((j%j-1)!=0)
+//		//	return 1;//多此一举
+//	}
+//	return 1;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	for (i = 100; i <= 200; i++)
+//	{
+//		int j = 0;
+//		for (j = 2; j <= i - 1; j++)
 //		{
-//			printf("退出游戏\n");
-//			break;
-//		}
-//		else
-//			printf("请再次输入：");
-//	} while (input);
+//			if ((i%j) == 0)
+//				break;
+//			else if ((i % (i - 1)) != 0)
+//			{
+//				printf("%d ", i);
+//				break;
+//			}
+//		};
+//		
+//	};
 //	return 0;
 //}
-//int game()
+//int main()//函数指针混合
 //{
-//	int rad = 0;
-//	rad = rand() % 100 + 1;
-//	int a = 0;
-//	printf("请输入一个数字：");
-//	while (1)
-//	{
-//		scanf("%d", &a);
-//		if (a > rad)
-//			printf("大了,请再次输入：\n");
-//		else if (a < rad)
-//			printf("小了，请再次输入：\n");
-//		else
-//		{
-//			printf("对了,真牛逼\n");
-//			break;
-//		}
-//	};
+//	int a = 10;
+//	int b = 20;
+//	chan(&a,&b);
+//	printf("%d %d",a,b);
+//	return 0;
+//}
+////如果不用指针，实参传给形参只是值，而形参的结果对实参没有影响。（形参是实参的一份临时拷贝）
+////用上指针就内外有联系。
+//int chan(int* pa,int* pb)
+//{
+//	int c;
+//	c = *pa;
+//	*pa = *pb;
+//	*pb = c;
 //}
